@@ -12,4 +12,8 @@ describe Library do
     expect(subject.books).to be_an(Array)
   end
 
+  it 'is expected to allow users to check out books' do
+    expect(subject.books).to
+  end
+
 end

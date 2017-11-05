@@ -3,7 +3,7 @@ class Library
 attr_accessor :books
 
   def initialize
-    @books = YAML.load_file('./book_list.yml')
+    @books = YAML.load_file('./lib/book_list.yml')
   end
 
   def available_books
